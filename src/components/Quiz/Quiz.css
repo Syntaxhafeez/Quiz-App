@@ -1,0 +1,99 @@
+.container{
+    width: 500px;
+    height: 80vh;
+    margin: auto;
+    margin-top: 30px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.container h1{
+    font-size: 30px;
+}
+
+.container hr{
+    height: 0px;
+    background: #707070;
+    border: 1px solid #707070;
+}
+
+.container h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container button{
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    background: #553f9a;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.container .index{
+    margin: auto;
+    font-size: 18px;
+}
+
+.container .correct{
+    background: #dffff2;
+    border-color: #00d397;
+}
+
+.container .wrong{
+    background: #ffebeb;
+    border-color: #ff4a4a;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 20px 15px;
+        gap: 15px;
+    }
+
+    .container h1 {
+        font-size: 24px;
+    }
+
+    .container h2 {
+        font-size: 18px;
+    }
+
+    .container ul li {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .container button {
+        width: 150px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .container .index {
+        font-size: 14px;
+    }
+}
