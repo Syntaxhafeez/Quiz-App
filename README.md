@@ -9,6 +9,7 @@ A simple and interactive quiz application built using **React** and **CSS**. Tes
 
 ## 📸 Screenshots  
 
+![Screenshot 2025-01-09 203554](https://github.com/user-attachments/assets/a71dc9a7-4963-4575-9e7a-4d74268ea3b5)
 
 ---
 
